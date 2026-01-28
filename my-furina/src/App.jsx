@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Pomodoro from "./pages/Pomodoro";
 import Habits from "./pages/Habits";
 import Schedule from "./pages/Schedule";
-import Chatbot from "./pages/Chatbot";
+import ChatWithFurina from "./pages/ChatWithFurina";
 import RootLayout from "./layout/RootLayout";
 import MainLayout from "./layout/MainLayout";
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="pomodoro" element={<Pomodoro />} />
           <Route path="habits" element={<Habits />} />
           <Route path="schedule" element={<Schedule />} />
-          <Route path="chatbot" element={<Chatbot />} />
+          <Route path="chatwithfurina" element={<ChatWithFurina />} />
         </Route>
       </Route>
     )

@@ -6,6 +6,7 @@
 }
 
 @theme {
+  --font-prompt: "Prompt", sans-serif;
   --font-lora: "Lora", ui-serif, Georgia, serif;
   --font-genshin: "Genshin", ui-serif, Georgia, serif;
 }

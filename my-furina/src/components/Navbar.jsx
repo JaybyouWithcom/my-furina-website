@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav
       className={`fixed inset-x-0 h-22.5 z-10 ${
         isOpen
-          ? "bg-white/60 backdrop-blur-[6px] shadow-2xl"
+          ? "bg-white/70 backdrop-blur-[6px] shadow-2xl"
           : "bg-transparent shadow-none"
       }`}
     >
@@ -51,7 +51,7 @@ const Navbar = () => {
             <NavLink to="/schedule">Schedule</NavLink>
           </li>
           <li>
-            <NavLink to="/chatbot">Chatbot</NavLink>
+            <NavLink to="/chatwithfurina">Chat with Furina</NavLink>
           </li>
         </ul>
         <button

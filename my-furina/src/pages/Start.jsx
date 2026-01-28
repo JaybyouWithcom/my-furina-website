@@ -26,9 +26,9 @@ const Start = () => {
       ></video>
       <NavLink
         to="/home"
-        className="flex justify-center items-center absolute left-[565px] top-[565px] w-[397px] h-[85px] bg-white/70 border-4 border-white rounded-[60px] drop-shadow-2xl font-lora font-semibold text-3xl text-[#2D4286] hover:scale-110 transition-transform duration-300 z-10"
+        className="flex justify-center items-center absolute left-141.25 top-141.25 w-99.25 h-21.25 bg-white/70 border-4 border-white rounded-[60px] drop-shadow-2xl font-prompt font-semibold text-3xl text-[#2D4286] hover:scale-110 transition-transform duration-300 z-10"
       >
-        Let the show begin!
+        เริ่ม
       </NavLink>
     </div>
   );

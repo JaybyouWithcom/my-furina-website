@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar";
 
-const Chatbot = () => {
+const ChatWithFurina = () => {
   return (
     <div>
       <video
-        src="backgrounds/video/chatbot.mp4"
-        poster="backgrounds/poster/chatbot.webp"
+        src="backgrounds/video/chatwithfurina.mp4"
+        poster="backgrounds/poster/chatwithfurina.webp"
         autoPlay
         muted
         loop
@@ -16,4 +16,4 @@ const Chatbot = () => {
   );
 };
 
-export default Chatbot;
+export default ChatWithFurina;
